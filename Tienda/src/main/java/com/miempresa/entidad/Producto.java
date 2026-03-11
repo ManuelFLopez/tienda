@@ -63,4 +63,8 @@ public class Producto {
         }
         this.precio = precio;
     }
+    // Refactorizacion
+    public void duplicarPrecio() {
+        setPrecio(getPrecio() * 2);
+    }
 }
